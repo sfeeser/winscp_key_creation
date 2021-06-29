@@ -1,4 +1,4 @@
-# Creating a winscp RSA key from windw3os subsystem for linux (WSL)
+# Creating a PPK key from an id_rsa key using windows subsystem for linux (WSL2)
 
 1. Given a working key:
 
