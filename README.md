@@ -4,6 +4,10 @@
 
     `~/.ssh/id_rsa`
     
+2. Given the public key installled on https://github.com/settings/keys
+
+    `~/.ssh/id_rsa.pub` 
+
 2. Install putty tools
 
     `sudo apt install putty-tools`
@@ -14,10 +18,10 @@
     
 4. Given a simlink
 
-    `keys -> /mnt/c/Users/sfees/Documents/keys/`
+    `keys -> /mnt/c/Users/<USER>/<blah>/<blah>/`
     
 5. Copy the ppk to the keys directory
 
     `cp ~/.ssh/id_rsa.ppk   ~/keys/id_rsa.ppk`  
     
-6. Set winscp to use the new key    
+6. Set winscp to use the new ppk key    
